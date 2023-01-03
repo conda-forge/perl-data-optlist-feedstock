@@ -1,6 +1,6 @@
 {% set name = "perl-data-optlist" %}
-{% set version = "0.112" %}
-{% set sha256 = "62c60ccaae88d5339ae36bcc8940b03388cf84adbf27828b1f8b300307103bab" %}
+{% set version = "0.113" %}
+{% set sha256 = "36aebc5817b7d4686b649434c2ee41f45c8bf97d4ca5a99f607cc40f695a4285" %}
 
 package:
   name: {{ name }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  skip: true   # [win]
+  skip: true  # [win]
   number: 0
   run_exports:
     weak:
@@ -38,7 +38,7 @@ about:
   license_file:
     - {{ environ["PREFIX"] }}/man/man1/perlartistic.1
     - {{ environ["PREFIX"] }}/man/man1/perlgpl.1
-  summary: 'parse and validate simple name/value option pairs'
+  summary: parse and validate simple name/value option pairs
 
 extra:
   recipe-maintainers:
