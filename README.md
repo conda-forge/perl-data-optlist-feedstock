@@ -1,11 +1,22 @@
+About perl-data-optlist-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/perl-data-optlist-feedstock/blob/main/LICENSE.txt)
+
 About perl-data-optlist
-=======================
+-----------------------
 
 Home: https://github.com/rjbs/Data-OptList
 
 Package license: GPL-1.0-or-later OR Artistic-1.0-Perl
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/perl-data-optlist-feedstock/blob/main/LICENSE.txt)
+Summary: parse and validate simple name/value option pairs
+About perl-data-optlist
+-----------------------
+
+Home: https://github.com/rjbs/Data-OptList
+
+Package license: GPL-1.0-or-later OR Artistic-1.0-Perl
 
 Summary: parse and validate simple name/value option pairs
 
